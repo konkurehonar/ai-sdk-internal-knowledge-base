@@ -30,11 +30,9 @@ To run the example locally you need to:
 4. `npm install` to install the required dependencies.
 5. `npm run dev` to launch the development server.
 
-
 ## Learn More
 
 To learn more about the AI SDK or Next.js by Vercel, take a look at the following resources:
 
 - [AI SDK Documentation](https://sdk.vercel.ai/docs)
 - [Next.js Documentation](https://nextjs.org/docs)
-
