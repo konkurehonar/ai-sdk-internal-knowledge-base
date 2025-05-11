@@ -1,39 +1,40 @@
-# Internal Knowledge Base Preview
-
-This template demonstrates the usage of the [Language Model Middleware](https://sdk.vercel.ai/docs/ai-sdk-core/middleware#language-model-middleware) to perform retrieval augmented generation and enforce guardrails using the [AI SDK](https://sdk.vercel.ai/docs) and [Next.js](https://nextjs.org/).
-
-## Deploy your own
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel-labs%2Fai-sdk-preview-internal-knowledge-base&env=OPENAI_API_KEY%2CAUTH_SECRET&envDescription=API%20keys%20needed%20for%20application&envLink=https%3A%2F%2Fgithub.com%2Fvercel-labs%2Fai-sdk-preview-internal-knowledge-base%2Fblob%2Fmain%2F.env.example&stores=%5B%7B%22type%22%3A%22blob%22%7D%2C%7B%22type%22%3A%22postgres%22%7D%5D)
-
-## How to use
-
-Run [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
-
-```bash
-npx create-next-app --example https://github.com/vercel-labs/ai-sdk-preview-internal-knowledge-base ai-sdk-preview-internal-knowledge-base-example
-```
-
-```bash
-yarn create next-app --example https://github.com/vercel-labs/ai-sdk-preview-internal-knowledge-base ai-sdk-preview-internal-knowledge-base-example
-```
-
-```bash
-pnpm create next-app --example https://github.com/vercel-labs/ai-sdk-preview-internal-knowledge-base ai-sdk-preview-internal-knowledge-base-example
-```
-
-To run the example locally you need to:
-
-1. Sign up for accounts with the AI providers you want to use (e.g., OpenAI, Anthropic).
-2. Obtain API keys for each provider.
-3. Set the required environment variables as shown in the `.env.example` file, but in a new file called `.env`.
-4. `npm install` to install the required dependencies.
-5. `npm run dev` to launch the development server.
-
-
-## Learn More
-
-To learn more about the AI SDK or Next.js by Vercel, take a look at the following resources:
-
-- [AI SDK Documentation](https://sdk.vercel.ai/docs)
-- [Next.js Documentation](https://nextjs.org/docs)
+🏛️ Kooshk Konkur Honar
+Kooshk Konkur Honar is a Persian-first, AI-powered educational platform focused on the national entrance exam in the field of Art.
+✨ What is Kooshk?
+In Persian architecture, a "Kooshk" (کوشک) refers to a classical pavilion — an open, four-sided structure designed for connection with nature and light. Inspired by historic examples like the pavilions of Niavaran Palace, our project brings this concept into the digital age:
+"A pavilion for learning art."
+🧠 Meet Tadaa – The AI Consultant
+Tadaa is a smart assistant trained and fine-tuned on up-to-date and official information about the Konkur-e-Honar.
+Instead of browsing multiple long articles, you can now ask exactly what you need — and get a focused, trustworthy answer instantly.
+📌 Version 1.0.0 Goals
+This MVP is the foundation for a growing knowledge ecosystem. It offers:
+Access to Tadaa without login
+Free and fast answers for art exam questions
+Full Persian language support and RTL layout
+Kooshk is just beginning. We plan to grow it into a full academic hub — from podcasts and practice tests to a digital library and mobile app. Stay tuned.
+🧠 Powered by AI SDK + RAG
+This project is built using the AI SDK Preview Internal Knowledge Base template from Vercel Labs.
+It leverages modern AI architecture with:
+Retrieval-Augmented Generation (RAG) for accurate answers from our own content
+OpenAI GPT models with custom embeddings
+Streaming responses with useChat() hook
+Data stored in PostgreSQL (Neon) with Drizzle ORM
+This means Kooshk doesn’t just generate answers — it retrieves relevant, accurate, and up-to-date information and responds with precision in Persian.
+In v1, the focus is on enabling the AI assistant (Tadaa) to serve as the user’s shortcut to knowledge.
+🔧 Technical Summary
+Framework: Next.js (React-based)
+Language: Persian-first, RTL layout
+AI Stack: Vercel AI SDK, OpenAI (gpt-3.5-turbo / gpt-4)
+Database: Neon (PostgreSQL) + Blob (for longform)
+Deployment: Vercel (frontend only)
+Offline-first (PWA): Planned in future release
+🤝 Contributing
+We will open-source this project after version 1.0.0.
+Stay tuned for CONTRIBUTING.md and DEVELOPER_GUIDE.md.
+Project Installation Command
+To install the project, simply enter the following command in your terminal
+git clone https://github.com/your-repository/kooshk-konkur-honar.git
+cd kooshk-konkur-honar
+npm install
+📜 License
+This project is licensed under MIT.
