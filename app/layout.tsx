@@ -10,6 +10,10 @@ export const metadata: Metadata = {
   title: "Internal Knowledge Base",
   description:
     "Internal Knowledge Base using Retrieval Augmented Generation and Middleware",
+  robots: {
+    index: false,
+    follow: false
+  }
 };
 
 export default function RootLayout({
